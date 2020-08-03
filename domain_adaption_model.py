@@ -105,7 +105,7 @@ model.fit(img_array2, img_array1,
 finish=time.time()
 print('total_time = ', finish-start)
  
-model.save('einstein_autoencoder.model')
+model.save('domain_adaption_autoencoder.model')
  
 print("Output")
 pred = model.predict(img_array2)
